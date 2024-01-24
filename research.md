@@ -9,7 +9,7 @@ The following is a narrated description of the journey thus far.
 It's not meant to be technical, but it tries to be a quick way to get up to speed with the project.
 For the more in-depth documentation please reference the various README.md in the main repository of the project.
 
-[_HERE_]()
+[_HERE_](https://dev.azure.com/prestacap/Prestatech-General/_git/intelligent-layout-parsing)
 
 ## The task
 
