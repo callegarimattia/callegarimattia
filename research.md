@@ -1,7 +1,15 @@
 # layoutLM: the Holy Grail of Understanding
 
-the what, why and how on the path to scanned document parsing, using ML \
-_by Mattia Callegari, "the Intern", 2024_
+the what, why and how on the path to scanned document parsing, using ML
+>_by Mattia Callegari, "the Intern", 2024_
+
+## Goal of this document
+
+The following is a narrated description of the journey thus far.
+It's not meant to be technical, but it tries to be a quick way to get up to speed with the project.
+For the more in-depth documentation please reference the various README.md in the main repository of the project.
+
+[_HERE_]()
 
 ## The task
 
@@ -22,13 +30,19 @@ Basically the perfect solution: the catch? It's [expensive](https://azure.micros
 
 ## The hard route
 
+### [LayoutLM](https://huggingface.co/docs/transformers/model_doc/layoutlm)
+
 After a bit of [research](https://www.microsoft.com/en-us/research/project/document-ai/), we found the backbone of Azure AI Document Intelligence service: LayoutLM. A state-of-the-art [transformer](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)) developed by Microsoft, published in this [ground-breaking paper](https://arxiv.org/abs/1912.13318).
+
+![LayoutLM architecture](https://miro.medium.com/v2/resize:fit:688/0*1sKiucnFRnv35BGQ "LayoutLM Architecture")
 
 The good news? It was licensed under the [MIT License](https://mit-license.org). We could use it! ...but how? it was _RESEARCH TIME!_
 
 ### Studying up
 
 We had no experience in Machine learning. So we went to who created the whole thing: the infamous [_Attention is all you need_](https://arxiv.org/abs/1706.03762) paper, the birth of the trasnfomer model, developed by Google.
+
+![Transformer Architecture](https://miro.medium.com/v2/resize:fit:1400/1*BHzGVskWGS_3jEcYYi6miQ.png)
 
 After lots of math and way too hard stuff, we went here: [Machine Learning Foundational Courses](https://developers.google.com/machine-learning/foundational-courses) and done'em all. After a week of learning, studying and trying to understand all the theory behind, we were (kinda) ready.
 
@@ -44,11 +58,11 @@ To do it we needed a couple of things:
 
 #### 1. the dataset
 
-Our dataset was a merely 150 samples, spanning over 32 different templates. We basically had less than 5 samples per template, on average. That was way too low.\
+Our dataset was a merely 150 samples, spanning over 32 different templates. We basically had less than 5 samples per template, on average. That was way too low.
 
 If you don't have the data... just create it!
 
-Over a weekend, a [document generator](_INSERT LINK HERE_) was born: pick a template, set the position of the labels and generate away! \
+Over a weekend, a document generator was born: pick a template, set the position of the labels and generate away! \
 Using the newly created tool we were able to generate hundreds or thousands of mock images filled with _realish_, consistent data.
 
 #### 2. the script
@@ -58,7 +72,7 @@ I found out that the benchmarks that the smart guys use to understand if a new m
 
 Out task was basically this: Form Understanding in Noisy Scanned Documents [(FUNSD)](https://paperswithcode.com/dataset/funsd).
 What did we find? An endless number of guides on how to benchmark the task! \
-After reading dozens of [python jupyter](https://docs.jupyter.org/en/latest/start/index.html) notebooks (e.g. [this](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/LayoutLM/Fine_tuning_LayoutLMForTokenClassification_on_FUNSD.ipynb)), we had our own fine-tuning [script](_INSERT LINK HERE_).
+After reading dozens of [python jupyter](https://docs.jupyter.org/en/latest/start/index.html) notebooks (e.g. [this](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/LayoutLM/Fine_tuning_LayoutLMForTokenClassification_on_FUNSD.ipynb)), we had our own fine-tuning script.
 
 #### 3. the machine
 
@@ -93,4 +107,20 @@ A quick [presentation](https://www.dropbox.com/scl/fi/xbsar9a0znatikteprysx/Docu
 
 ## The next steps
 
-_In progress..._
+Currently the main problem yet to be solved is the token limitation. A solution has already been designed: a sliding window/stride pattern. Following the examples found in the very useful and active [huggingface github repository](https://github.com/huggingface/transformers/issues/19190) should help.
+
+It's also needed a better infrastructure to keep track of the training and save/organize the models weights. Colab works fine for testing and quick demoing, but it has many problems: mainly the runtime disconnection, which drops the workspace. Not great!
+
+## Useful resources
+
+Following a list of some of the resources/links/articles that helped us along the way.
+
+1. [Hugging Face LayoutLM](https://huggingface.co/docs/transformers/model_doc/layoutlm)
+2. [Token Classification task](https://huggingface.co/docs/transformers/tasks/token_classification)
+3. [Example Notebook](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/LayoutLMFine_tuning_LayoutLMForTokenClassification_on_FUNSD.ipynb)
+4. [LayoutLM Paper](https://arxiv.org/abs/1912.13318)
+5. [Article explaining LayoutLM](https://medium.com/dair-ai/papers-explained-10-layout-lm-32ec4bad6406)
+6. [Microsft Research Page on Document AI](https://www.microsoft.com/en-us/research/project/document-ai/)
+7. [Cool article on extraction](https://medium.com/@ravisatvik.192/unleashing-the-power-of-layoutlm-extracting-entities-from-structured-documents-made-easy-5d82c6290ec7)
+8. [Google Foundational AI Course (15hr)](https://developers.google.com/machine-learning/crash-course/)
+9. [Text classification guide by Google](https://developers.google.com/machine-learning/guides/text-classification)
