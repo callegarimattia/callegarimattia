@@ -26,4 +26,4 @@ If I'm not coding or grappling, I'm on [Lichess](https://lichess.org/). Add me [
 
 
 ### github stats 🏆
-[![trophy](https://github-profile-trophy.vercel.app/?username=callegarimattia)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=callegarimattia&title=MultiLanguage,Commits,Reviews,PullRequest)](https://github.com/ryo-ma/github-profile-trophy)
