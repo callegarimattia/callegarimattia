@@ -2,17 +2,17 @@
 Hi! I'm Mattia. I studied CS Engineering at @[Polimi](https://www.polimi.it/). \
 I'm now pursuing internships around Europe, first in Berlin and currently in Lisbon @[Emma](https://team.emma-sleep.com/).
 
-## projects
+### projects
 I've contributed in the development of a python library for PDF parsing [hotpdf](https://github.com/weareprestatech/hotpdf) \
 I've optimized a DNA squencing algo in CUDA: [Symmetric Gauss Seidel Algorithm](https://github.com/callegarimattia/GPU101-SYMGS) \
 I've ported a table game to Java: [MyShelfie](https://github.com/callegarimattia/IS23-AM33)
 
-## hobbies
+### hobbies
 I'm a 🟪 belt in Brazilian JiuJitsu, completely addicted to the sport.
 
 If I'm not coding or grappling, I'm on [Lichess](https://lichess.org/). Add me [here](https://lichess.org/@/mrkalle21)!
 
-## language & tools 🛠️
+### language & tools 🛠️
 ![MACOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![PYTHON](	https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
 ![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
@@ -25,5 +25,5 @@ If I'm not coding or grappling, I'm on [Lichess](https://lichess.org/). Add me [
 ![AZURE](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 
 
-## github stats 🏆
+### github stats 🏆
 [![trophy](https://github-profile-trophy.vercel.app/?username=callegarimattia)](https://github.com/ryo-ma/github-profile-trophy)
