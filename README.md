@@ -3,9 +3,9 @@ Hi! I'm Mattia. I studied CS Engineering at @[Polimi](https://www.polimi.it/). \
 I'm now pursuing internships around Europe, first in Berlin and currently in Lisbon @[Emma](https://team.emma-sleep.com/).
 
 ### projects
-I've contributed in the development of a python library for PDF parsing [hotpdf](https://github.com/weareprestatech/hotpdf) \
-I've optimized a DNA squencing algo in CUDA: [Symmetric Gauss Seidel Algorithm](https://github.com/callegarimattia/GPU101-SYMGS) \
-I've ported a table game to Java: [MyShelfie](https://github.com/callegarimattia/IS23-AM33)
+Contributed in the development of a python library for PDF parsing [hotpdf](https://github.com/weareprestatech/hotpdf) \
+Optimized a DNA squencing algo in CUDA: [Symmetric Gauss Seidel Algorithm](https://github.com/callegarimattia/GPU101-SYMGS) \
+Ported a table game to Java: [MyShelfie](https://github.com/callegarimattia/IS23-AM33)
 
 ### hobbies
 I'm a 🟪 belt in Brazilian JiuJitsu, completely addicted to the sport.
