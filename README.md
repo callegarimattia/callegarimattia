@@ -12,7 +12,7 @@ I'm a 🟪 belt in Brazilian JiuJitsu, completely addicted to the sport.
 
 If I'm not coding or grappling, I'm on [Lichess](https://lichess.org/). Add me [here](https://lichess.org/@/mrkalle21)!
 
-### language & tools 🛠️
+### language & tools
 ![MACOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![PYTHON](	https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
 ![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
@@ -25,5 +25,5 @@ If I'm not coding or grappling, I'm on [Lichess](https://lichess.org/). Add me [
 ![AZURE](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 
 
-### github stats 🏆
+### github stats
 [![trophy](https://github-profile-trophy.vercel.app/?username=callegarimattia&title=MultiLanguage,Commits,Reviews,PullRequest)](https://github.com/ryo-ma/github-profile-trophy)
