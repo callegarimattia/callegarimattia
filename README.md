@@ -24,6 +24,4 @@ If I'm not coding or grappling, I'm on [Lichess](https://lichess.org/). Add me [
 ![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![AZURE](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 
-
-### github stats
-[![trophy](https://github-profile-trophy.vercel.app/?username=callegarimattia&title=MultiLanguage,Commits,Reviews,PullRequest)](https://github.com/ryo-ma/github-profile-trophy)
+![](https://raw.githubusercontent.com/callegarimattia/stats/master/generated/overview.svg#gh-dark-mode-only)
