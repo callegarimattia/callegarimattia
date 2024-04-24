@@ -4,7 +4,7 @@ I'm now pursuing internships around Europe, first in Berlin and currently in Lis
 
 ### projects
 * Contributed in the development of a python library for PDF parsing [hotpdf](https://github.com/weareprestatech/hotpdf)
-* Optimized a DNA squencing algo in CUDA: [Symmetric Gauss Seidel Algorithm](https://github.com/callegarimattia/GPU101-SYMGS)
+* Optimized a DNA sequencing algo in CUDA: [Symmetric Gauss Seidel Algorithm](https://github.com/callegarimattia/GPU101-SYMGS)
 * Ported a table game to Java: [MyShelfie](https://github.com/callegarimattia/IS23-AM33)
 
 ### hobbies
