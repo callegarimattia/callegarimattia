@@ -1,6 +1,7 @@
 ### hello!
 Hi! I'm Mattia. I studied CS Engineering at @[Polimi](https://www.polimi.it/). \
-I'm now pursuing internships around Europe, first in Berlin and currently in Lisbon @[Emma](https://team.emma-sleep.com/).
+I'm highly invested in creating quality software solutions. Currently studying the craft, and making things with Go!  \
+Reach out on [LinkedIn](https://www.linkedin.com/in/mattiacallegari/) if you want to chat :p
 
 ### projects
 * Contributed in the development of a python library for PDF parsing [hotpdf](https://github.com/weareprestatech/hotpdf)
